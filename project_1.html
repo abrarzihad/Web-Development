@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Student Regisstration</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<div id="logo">
+			    	<a href="https://www.google.com">CAREER ADVISOR</a>
+			    </div>
+		</div>
+	</header>
+	<h1 align="center">STUDENT REGISTRATION FORM</h1>
+	<form action="/action_page.php" target="_blank" id="form1">
+		<fieldset>
+    <legend>Personal information:</legend>
+	<STRONG title="Caps Preferred">FIRST NAME:</STRONG><br>
+	<input type="text" placeholder="Name" name=""><br><br>
+	<STRONG title="Caps Preferred">LAST NAME:</STRONG><br>
+	<input type="text" placeholder="Name" name="lastname"><br><br>
+	<STRONG>AGE:</STRONG>
+	<select name="Age">
+  <option>18</option>
+  <option>19</option>
+  <option>20</option>
+  <option>21</option>
+</select><br><br>
+<strong>GENDER:</strong><br>
+<input type="checkbox" name="Male" value="Male"> Male<br>
+  <input type="checkbox" name="Female" value="Female"> Female<br><br>
+	<STRONG title="Full Name Preferred">NAME OF UNIVERSITY OR COLLEGE:</STRONG><br>
+	<input type="text" placeholder="Name of college or university" size="50px"><br><br></fieldset>
+	<fieldset>
+		<legend>Subsidiary information</legend>
+	 <strong>EMAIL ADDRESSE:</strong><br>
+	 <input type=”text” placeholder="email" name=""><br><br>
+	 <strong title="At least one cap, one small, one number and one symbol">Password:</strong><br>
+	 <input type="text" placeholder="***********" name=""><br><br>
+	 <strong title="If ANY">DEPARTMENT</strong><br>
+	 <select name="DEPARTMENT">
+	 <option>EEE</option>
+	 <option>MECH</option>
+	 <option>CSE</option>
+	 <option>OTHER</option>
+	</select><br><br></fieldset>
+	</form>
+	<p align="center">
+	<button type="submit" form="form1" value="Submit">Submit</button></p>
+</body>
+</html>

@@ -1,0 +1,49 @@
+* {
+  padding:0;
+  margin:0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  height:100vh;
+  display: flex;
+}
+
+section {
+  height:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex:1;
+  transition: all 3s;
+}
+
+section:hover {
+  flex:2;
+}
+
+section h1 {
+  background:rgba(0,0,0,0.6);
+  color:white;
+  padding: 12px 32px;
+}
+
+
+
+.Student{
+  background:url('https://dsu.edu/student-life/files/20190426_GJP_0541.jpg') ;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+
+.Alumni{
+  background:url('https://www.kent.edu/sites/default/files/styles/normal_banner/public/article/1dffcf69-8221-4a19-a4da-3923aee76c39.jpg?itok=p1HTJlDr') ;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
