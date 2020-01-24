@@ -1,0 +1,28 @@
+body{
+	background-image:url(https://farm2.static.flickr.com/1973/44227436594_1eec3cce9f_b.jpg);
+	background-size: cover;
+}
+div{
+	font-size: 50px;
+	color: white;
+}
+select[name=university]{
+	width: 80px;
+	height:40px;
+}
+textarea{
+	width: 350px;
+	height: 120px;
+	border: 2px solid white;
+}
+.headline{
+	font-family:georgia;
+	color: white;
+}
+input[type=radio]{
+	width: 40px;
+	height: 20px;
+}
+fieldset{
+	border: 2px solid white;
+}
