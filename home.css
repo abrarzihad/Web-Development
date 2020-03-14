@@ -1,0 +1,43 @@
+body, html {
+    height: 100%;
+}
+.hero-image { background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.ytimg.com/vi/hHW1oY26kxQ/maxresdefault.jpg");
+height: 75%;
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;}
+  .hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+button{padding: 20px 50px;
+background-color: #008CBA;
+border: 2px solid blue; 
+-webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;}
+  button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;}
+  header { background: rgba(0,0,0,.25); margin-bottom: 10px; height: 60px; padding-top: 15px; }
+			  header a { color: rgb(255,255,255); text-decoration: none; }
+			  #logo { float: left; margin-left: 10px; font-family: 'Merriweather', serif; font-size: 150%; color: rgb(255,255,255); }
+			  nav { float: right; }
+			  nav li { display: inline; font-family: 'Merriweather', serif; margin-right: 30px; }
+ section.features { width: 1170px; margin: 0 auto 50px auto; display: flex; justify-content: space-between; }
+			  h1 { font-size: 250%; font-family: 'Merriweather', serif; color: rgb(150,150,150); text-align: center; font-weight: normal; padding-top: 50px; }
+			  .featurebox { width: 220px; padding: 10px; margin: 0 auto; }
+			  h3 { font-size: 300%; font-family: 'Dancing Script', cursive; color: rgb(178,71,61); text-align: center; font-weight: normal; line-height: 100%; margin-bottom: 0px; }
+
+			  .featureboxpicture { width: 200px; height: 200px; margin: 0 auto; border-radius: 50%; }
+
+			  .featureboxpicture1 { background: url(https://ius.edu.bd/wp-content/uploads/2015/12/eee-programs-img.jpg); }
+			  .featureboxpicture2 { background: url(https://ius.edu.bd/wp-content/uploads/2015/12/cse-programs-img.jpg); }
+			  .featureboxpicture3 { background: url(https://3.imimg.com/data3/JQ/DS/MY-9769910/department-of-mechanical-engineering-500x500.jpg); }
+			   }
+
+			  
